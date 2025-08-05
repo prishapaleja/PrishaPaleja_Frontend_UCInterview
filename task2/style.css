@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #A7D0E9;
+    font-family: "Barlow", sans-serif;
+}
+
+body{
+    background-color: #021C2C;
+}
+
+.game{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.result{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.hide{
+    display: none;
+}
+
+.card{
+    width: 40vw;
+    background-color: #02040F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 2rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem #545E75;
+    padding: 2rem;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 650;
+}
+
+input{
+    width: 40%;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 1.5rem;
+    border: none;
+    background-color: #A7D0E9;
+    color: #02040F;
+    font-size: 1rem;
+}
+
+input::placeholder{
+    color:#02040F;
+}
+
+input:focus{
+    border: none;
+    outline: none;
+    background-color: #87c3e9;
+}
+
+button{
+    width: 8rem;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 1.5rem;
+    border: none;
+    background-color: #545E75;
+    box-shadow: 1px 1px 0.5rem #545E75;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #414856;
+}
+
+.message{
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.guess_list{
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
