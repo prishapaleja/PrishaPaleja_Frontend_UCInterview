@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+nav{
+    padding: 15px;
+    margin: 15px 50px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand{
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.navlist li{
+    list-style: none;
+    display: inline;
+    margin: 5rem;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+button{
+    background: linear-gradient(to bottom right, #3462E7, #093FC8);
+    border-radius: 15px;
+    border: none;
+    padding: 17px 50px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 4px 4px #00000025;
+}
+
+.frame1{
+    margin-left: 50px;
+    padding: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.frame1 .left-panel{
+    width: 50%;
+}
+
+.frame1 .right-panel img{
+    width: 90%;
+    filter: drop-shadow(4px 4px 10px #00000025);
+}
+
+.one{
+    margin: 10px 0px;
+    font-size: 16px;
+}
+
+.search input{
+    background:#314D8F;
+    border: none;
+    border-radius: 15px;
+    padding: 7px 15px;
+    box-shadow: 0 4px 4px #00000025;
+    color: #FFFFFF;
+}
+
+.search input::placeholder{
+    color: #FFFFFF;
+}
+
+.bluebar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #DCECFC;
+    padding: 40px 20px;
+    width: 100%;
+}
+
+.bbElement{
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+}
+.bbIcon{
+    background-color: #BEDBF9;
+    border: 5px solid #FFFFFF;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px #00000025;
+}
+
+.bbContent h3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.heading{
+    text-align: center;
+    margin: 50px;
+    margin-bottom: 0;
+}
+
+.heading h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 70px;
+    color: #314D8F;
+    text-shadow: 0 4px 4px #00000025;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    background-color: #DCECFC;
+    border: none;
+    border-radius: 15px;
+    width: 25vw;
+    height: 62vh;
+    margin: 50px;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+.photo{
+    margin: 10px;
+    padding: 10px;
+}
+
+.photo img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card_content{
+    margin: 10px;
+    padding: 10px;
+}
+
+.card_content h2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.card_content h4{
+    font-weight: 500;
+    margin: 5px 0;
+}
+
+.explore{
+    margin-left: auto;
+    display: block;
+    margin-right: 80px;
+}
+
+.courses{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px;
+    margin-bottom: 0;
+}
+
+.courses li{
+    list-style: none;
+    display: inline;
+    margin: 3vw;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.frame4{
+    background-color: #DCECFC;
+    margin: 80px;
+    padding: 20px;
+    border-radius: 10px;
+    height: 80vh;
+}
+
+.communities{
+    background-color: #EFF7FF;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+.com_title{
+    margin: 50px;
+    width: 30%;
+}
+
+.com_title h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 55px;
+    text-shadow: 0 4px 4px #00000025;
+    line-height: 55px;
+    margin-bottom: 25px;
+}
+
+.com_title p{
+    font-size: 20px;
+}
+
+.com_content{
+    width: 30%;
+    margin: 15px;
+}
+
+.photo1{
+    text-align: center;
+}
+
+.photo1 img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+
+}
+
+.text h3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+.text p{
+    margin: 10px;
+    padding: 0 30px;
+}
+
+.cards1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card1{
+    background-color: #F3F9FF;
+    border: none;
+    border-radius: 10px;
+    width: 40vw;
+    margin: 50px;
+    box-shadow: 8px 8px 10px #DCECFC50;
+}
+
+.photo2{
+    margin: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.photo2 img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.c1_name h3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    margin-left: 15px;
+}
+
+.c1_text p{
+    margin:20px 130px 20px 50px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.stars{
+    display: flex;
+    align-items: baseline;
+    justify-content: right;
+    margin: 15px 30px;
+}
+
+.footer_columns{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.column{
+    min-width: 160px;
+    flex: 1;
+    margin-left: 50px;
+}
+
+.column h4{
+    font-family: 'Source Sans 3';
+    font-weight: 600;
+    font-size: 20px;
+    color: #121B30;
+    margin-bottom: 6px;
+}
+
+.column ul{
+    list-style: none;
+}
+
+.column li{
+    font-family: 'Source Sans 3';
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.apps{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+hr{
+    margin: 20px;
+}
+
+.footer{
+    margin: 50px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer p{
+    font-family: 'Source Sans 3';
+    font-weight: 400;
+    font-size: 14px;
+    color: #373A3C;
+}
+
+.footer_icons{
+    margin-right: 50px;
+}
+
+.footer_icons img{
+    margin: 0 10px;
+}

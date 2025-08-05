@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to bottom right, #D0E5FA, #FFFFFF);
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-panel {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.illustration img{
+  width: 100%;
+  filter: drop-shadow(0px 4px 4px #00000025);
+}
+
+.illustration1 img{
+  width: 90%;
+}
+
+.right-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.brand {
+  font-size: 65px;
+  color: #244a88;
+  margin-bottom: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+}
+
+.card {
+  background: linear-gradient(to bottom right, #4391F1, #C8E4FF);
+  padding: 40px 30px;
+  border-radius: 25px;
+  width: 50%;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+}
+
+.card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 800;
+  
+}
+
+.card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.card input {
+  padding: 12px 0px;
+  margin-top: 15px;
+  border: none;
+  border-bottom: 2px solid #FFFFFF;
+  font-weight: 400;
+  font-size: 1rem;
+  background: transparent;
+  color: #fff;
+}
+
+.card input::placeholder{
+  color: #FFFFFF;
+}
+
+.card input:focus {
+  outline: none;
+}
+
+.card .forgot {
+  text-align: right;
+  margin-bottom: 15px;
+  margin-top: 0px;
+}
+
+.card .forgot a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.card button {
+  margin-top: 25px;
+  padding: 12px;
+  border: none;
+  border-radius: 15px;
+  background: linear-gradient(to bottom, #3462E7, #093FC8);
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 4px 4px #00000025;
+}
+
+.signup-text {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+.signup-text a {
+  color: #517FF9;
+  text-decoration: underline;
+}
