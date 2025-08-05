@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess a Number Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="result hide" id="won_frame">
+        <h1>Correct Guess, You Won!</h1>
+        <button id="reset">Play again</button>
+    </div>
+    <div class="result hide" id="lost_frame">
+        <h1>Out Of Lives</h1>
+        <p id="number"></p>
+        <button id="reset2">Play again</button>
+    </div>
+    <div class="game">
+        <div class="card">
+            <div class="heading">
+                <h1>Guess the Number</h1>
+                <h2>from 1 to 100</h2>
+            </div>
+            <div id="lives_container" class="hearts">
+                <span class="heart" id="0">❤️</span>
+                <span class="heart" id="1">❤️</span>
+                <span class="heart" id="2">❤️</span>
+                <span class="heart" id="3">❤️</span>
+                <span class="heart" id="4">❤️</span>
+                <span class="heart" id="5">❤️</span>
+                <span class="heart" id="6">❤️</span>
+            </div>
+
+            <input type="number" id="guess_input" placeholder="Enter your guess"></input>
+            <button id="submit">Submit</button>
+
+            <p id="hint" class="message"></p>
+
+            <ul class="guess_list"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
